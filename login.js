@@ -5,17 +5,25 @@ $( document ).ready(function() {
 $( '#login-form' ).submit(function(){
 	var username = $("#username").val();
 	var password = $("#password").val(); 
-	console.log($("#username").val() + "user") ;
+	console.log(username);
   $.ajax({
   method: "POST",
-  url: "https://api.cloud.appcelerator.com/v1/users/login.json?key=u4Qd4gxjiQmE3XCaRXT6jUuwWNPSQabP",
+  url: "https://api.cloud.appcelerator.com/v1/users/login.json?key=TYG1NBFN4olAKbjgTK01Z1bO5DwLjApW",
   data: {
-	login: "test1@vcu.edu",
-	password: "test1"
+	login: username,
+	password: password,
 	},
-	success: function (){
-	window.location.href = "http://stackoverflow.com"; }
+	success: function(data){
+             if(data.status!=200){
+                 alert("Error occured!");
+             } else {
+                 callback();
+             } 
+    }
 })
+.done(function( data ) {
+      console.log( "Sample of data:", data.slice( 0, 100 ) );
+  });
 
 });
 

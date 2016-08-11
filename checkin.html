@@ -4,8 +4,9 @@
 	<title>REDBOARD</title>
 	<link rel="stylesheet" href="dash.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="students.js"></script>
-	<script src="app.js"></script>
+	<script src="checkin.js"></script>
+	<script src="jquery.qrcode-0.11.0.min.js"></script>
+	
 </head>
 <body>
 <header>
@@ -18,14 +19,14 @@
 <li><a href = "Students.html">Students</a></li>
 <li><a href = "course.html">Courses</a></li>
 <li><a href = "checkin.html">Check-In</a></li>
+
 </ul>
 </nav>
 
 <section>
-<h1>List Of Students by Class</h1>
-<p id="courseNumber" />
-<!-- course list goes here -->
-<p id = "courses-info"> Course List:<br></p>
+<h1>Check In | <span id = "date" /></h1>
+<div id="qr" />
+
 </section>
 
 </body>
