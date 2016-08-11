@@ -1,0 +1,21 @@
+"#CD":
+{
+	backgroundColor:"red",
+	color:"white",
+	width: 160,
+	height:30,
+	top:30,
+	bottom:0,
+}
+
+/*"#As":
+{
+	backgroundColor:"red",
+	color:"white",
+	width: 160,
+	height:30,
+	top:70,
+	bottom:10,
+}*/
+
+

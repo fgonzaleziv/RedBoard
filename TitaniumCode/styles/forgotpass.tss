@@ -1,0 +1,55 @@
+
+".textFieldContainer": {
+	backgroundColor:"white",
+	layout: "vertical",
+}
+"#logoImage":
+{
+	top:20,
+	width:160,
+	height:140,
+}
+
+
+
+"#email":
+{ 
+	width: 300, 
+	height: 30,
+	top:10,
+	bottom:0,
+	borderColor:"red",
+	color:"#000000",
+	
+	
+}
+
+"#password":
+{
+	width: 300,
+	height: 30,
+	top:20,
+	bottom:10,
+	borderColor:"red",
+	color:"#000000",
+	
+}
+
+"Button":
+{
+	backgroundColor:"red",
+	color:"white",
+	width: 160,
+	height:30,
+	top:20,
+	bottom:10,
+}
+"#gotoIndex":
+{
+	backgroundColor:"red",
+	color:"white",
+	top:20,
+	bottom:10,
+	width: 160,
+	height:30,
+}

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class ="textFieldContainer"> 
+			<ImageView id="logoImage" image="http://i.imgur.com/I3ZUCzZ.png" />
+			<Label>Write your email and click in the next button and you will see you password</Label> 
+			
+			<TextField id="email" hintText= "E-mail"/>
+			
+			<Button id="getpass">GET PASSWORD</Button>
+			
+			<TextField id="password" hintText="Password" />
+			
+			<Button id="gotoIndex" onClick="cancel">CANCEL</Button>
+			
+		</Window>
+</Alloy>

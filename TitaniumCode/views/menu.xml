@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="titlemenu" title="Menu" backgroundColor="red">
+		
+		<TableView   maxRowHeight="50" top="20">
+			<TableViewRow  id="tmenu" title="MENU" color="white" backgroundColor="red"></TableViewRow>
+				<TableViewRow title="Logout" onClick="out"></TableViewRow>
+				<TableViewRow title="Check in" onClick="scan" ></TableViewRow>
+				<TableViewRow title="Back to Redboard" onClick="backdashboard" ></TableViewRow>
+				
+		</TableView>
+	</Window>
+</Alloy>

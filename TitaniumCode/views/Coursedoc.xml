@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="wincour" title="My Course Documents" backgroundColor="white">
+		<LeftNavButton platform="android"> </LeftNavButton>
+	</Window>
+</Alloy>

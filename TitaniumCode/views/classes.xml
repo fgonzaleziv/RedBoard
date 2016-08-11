@@ -1,0 +1,15 @@
+<Alloy>
+	
+	<Window id ="class1" backgroundColor="white" >
+		<LeftNavButton platform="android"> </LeftNavButton>
+		
+		<TableView id='tview'>
+								<TableViewRow  id="CD" title="Document" hasChild="true"></TableViewRow>
+								<TableViewRow  id="As" title="Assigments" hasChild="true" ></TableViewRow>
+								
+	</TableView>
+		
+	
+	</Window>
+	
+</Alloy>

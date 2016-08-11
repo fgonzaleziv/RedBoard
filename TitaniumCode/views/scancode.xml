@@ -1,0 +1,8 @@
+<Alloy>
+	<Window title="scanner" id="win1" layout="vertical">
+		<Label text="obtained from QRCODE" top="30" />
+		<Label id="code" top="20" />
+		<Button title="Check-In" top="20" id="btnScan"/>
+		<Button title="Back" top="20" onClick="dash" />
+	</Window>
+</Alloy>

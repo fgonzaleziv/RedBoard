@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class ="textFieldContainer"> 
+			<ImageView id="logoImage" image="http://i.imgur.com/I3ZUCzZ.png" />
+			<TextField id="firstname" hintText= "First name"/>
+			<TextField id="lastname" hintText="Last name" />
+			<TextField id="email" hintText= "E-mail"/>
+			<TextField id="password" hintText="Password" />
+			<Button id="registernow">REGISTER NOW</Button>
+			<Button id="gotoIndex" onClick="cancel">CANCEL</Button>
+		</Window>
+</Alloy>

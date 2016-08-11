@@ -1,0 +1,45 @@
+<Alloy>
+	<TabGroup id="win3"   backgroundColor="#FF0000">
+					<Tab  title="Announcements" icon="speaker-electric.png">
+						<Window id="titleAnn" title="Announcement" backgroundColor="red">
+							<LeftNavButton platform="ios"> 
+								<Button id="menu" onClick="menu">Menu</Button>	
+							</LeftNavButton>
+					
+							
+						</Window>
+					</Tab>
+					<Tab id="courses"  title="My Courses" icon="drawer.png">
+						<Window id="wincourses" title="My Courses">
+							<LeftNavButton platform="ios"> 
+								<Button id="menu" onClick="menu">Menu</Button>	
+							</LeftNavButton>
+							<!--TableView>
+								<TableViewRow id="viewR"  hasChild="true" onClick="class1"></TableViewRow>
+								<!--TableViewRow title="Cyber-security" hasChild="true" ></TableViewRow>
+								<TableViewRow title="Mobile App" hasChild="true"></TableViewRow>
+							</TableView-->
+							
+						</Window>
+					</Tab>
+					<Tab title="Collaboration" icon="hand-shake.png">
+						<Window title="Collaboration">
+							<LeftNavButton platform="ios"> 
+								<Button id="menu" onClick="menu">Menu</Button>	
+							</LeftNavButton>
+							
+							<Label>I am Window 1</Label>
+						</Window>
+					</Tab>
+					<Tab id="MYG" title="My Grades" icon="id-card.png">
+						<Window id ="win2" title="My Grades" >
+							<LeftNavButton platform="ios"> 
+								<Button id="menu" onClick="menu">Menu</Button>	
+							</LeftNavButton>
+							
+						</Window>
+					
+					</Tab>
+				</TabGroup>
+		
+</Alloy>

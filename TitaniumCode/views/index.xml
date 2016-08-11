@@ -1,0 +1,14 @@
+
+
+<Alloy>
+		<Window class ="textFieldContainer"> 
+			<ImageView id="logoImage" image="http://i.imgur.com/I3ZUCzZ.png" />
+			<TextField id="email" hintText= "E-mail"/>
+			<TextField id="password" hintText="Password" />
+			<Label id = "register" onClick="registerhere">Register Here</Label> 
+			<!--Label id="forgotPassword" onClick="FORGOTPASS">Forgot Password?</Label-->
+			<Label>Remember Me</Label>
+			<Switch id="basicSwitch" value="true"/>
+			<Button id="login">LOGIN</Button>
+		</Window>
+</Alloy>
